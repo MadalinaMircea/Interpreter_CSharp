@@ -1,0 +1,227 @@
+﻿Stack:
+
+(
+Open(E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt)
+
+ReadFile(var_f,var_c)
+
+)
+(
+if(var_c)
+then 
+(
+ReadFile(var_f,var_c)
+
+Print(var_c)
+
+)
+else Print(0)
+
+
+Close(var_f)
+
+)
+SymbolTable:
+
+OutputList:
+
+FileTable:
+
+
+
+
+Stack:
+Open(E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt)
+ReadFile(var_f,var_c)
+
+(
+if(var_c)
+then 
+(
+ReadFile(var_f,var_c)
+
+Print(var_c)
+
+)
+else Print(0)
+
+
+Close(var_f)
+
+)
+SymbolTable:
+
+OutputList:
+
+FileTable:
+
+
+
+
+Stack:
+ReadFile(var_f,var_c)
+
+(
+if(var_c)
+then 
+(
+ReadFile(var_f,var_c)
+
+Print(var_c)
+
+)
+else Print(0)
+
+
+Close(var_f)
+
+)
+SymbolTable:
+var_f --> 0
+
+OutputList:
+
+FileTable:
+0 --> E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt
+
+
+
+
+Stack:
+
+(
+if(var_c)
+then 
+(
+ReadFile(var_f,var_c)
+
+Print(var_c)
+
+)
+else Print(0)
+
+
+Close(var_f)
+
+)
+SymbolTable:
+var_f --> 0
+var_c --> 15
+
+OutputList:
+
+FileTable:
+0 --> E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt
+
+
+
+
+Stack:
+if(var_c)
+then 
+(
+ReadFile(var_f,var_c)
+
+Print(var_c)
+
+)
+else Print(0)
+
+Close(var_f)
+
+SymbolTable:
+var_f --> 0
+var_c --> 15
+
+OutputList:
+
+FileTable:
+0 --> E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt
+
+
+
+
+Stack:
+
+(
+ReadFile(var_f,var_c)
+
+Print(var_c)
+
+)Close(var_f)
+
+SymbolTable:
+var_f --> 0
+var_c --> 15
+
+OutputList:
+
+FileTable:
+0 --> E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt
+
+
+
+
+Stack:
+ReadFile(var_f,var_c)
+Print(var_c)
+Close(var_f)
+
+SymbolTable:
+var_f --> 0
+var_c --> 15
+
+OutputList:
+
+FileTable:
+0 --> E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt
+
+
+
+
+Stack:
+Print(var_c)
+Close(var_f)
+
+SymbolTable:
+var_f --> 0
+var_c --> 30
+
+OutputList:
+
+FileTable:
+0 --> E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt
+
+
+
+
+Stack:
+Close(var_f)
+
+SymbolTable:
+var_f --> 0
+var_c --> 30
+
+OutputList:
+30
+
+FileTable:
+0 --> E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\test.txt
+
+
+
+
+Stack:
+
+SymbolTable:
+var_f --> 0
+var_c --> 30
+
+OutputList:
+30
+
+FileTable:
+
+
+
+

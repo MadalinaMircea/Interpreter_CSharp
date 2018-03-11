@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDC753A8-3B5E-462A-8208-AFD026511EF3}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lab</RootNamespace>
+    <AssemblyName>Lab</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\Controller.cs" />
+    <Compile Include="Model\Expressions\ArithmeticExpression.cs" />
+    <Compile Include="Model\Expressions\ConstantExpression.cs" />
+    <Compile Include="Model\Expressions\Expression.cs" />
+    <Compile Include="Model\Expressions\VariableExpression.cs" />
+    <Compile Include="Model\FileData.cs" />
+    <Compile Include="Model\MyException.cs" />
+    <Compile Include="Model\ProgramState\PrgState.cs" />
+    <Compile Include="Model\Statements\AssignStatement.cs" />
+    <Compile Include="Model\Statements\CloseRFileStatement.cs" />
+    <Compile Include="Model\Statements\CompoundStatement.cs" />
+    <Compile Include="Model\Statements\IfStatement.cs" />
+    <Compile Include="Model\Statements\OpenRFileStatement.cs" />
+    <Compile Include="Model\Statements\PrintStatement.cs" />
+    <Compile Include="Model\Statements\ReadRFileStatement.cs" />
+    <Compile Include="Model\Statements\Statement.cs" />
+    <Compile Include="Model\Utils\ExecStack.cs" />
+    <Compile Include="Model\Utils\IFileTable.cs" />
+    <Compile Include="Model\Utils\IDictionary.cs" />
+    <Compile Include="Model\Utils\FileTable.cs" />
+    <Compile Include="Model\Utils\IList.cs" />
+    <Compile Include="Model\Utils\IStack.cs" />
+    <Compile Include="Model\Utils\OutputList.cs" />
+    <Compile Include="Model\Utils\SymbolTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="View\Command.cs" />
+    <Compile Include="View\ExitCommand.cs" />
+    <Compile Include="View\RunExample.cs" />
+    <Compile Include="View\TextMenu.cs" />
+    <Compile Include="View\View.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="file.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

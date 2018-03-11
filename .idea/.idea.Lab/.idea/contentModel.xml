@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\mady\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_Lab.646048656.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mady\RiderProjects\Lab" t="IncludeFlat">
+      <e p="Lab" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controller" t="Include">
+          <e p="Controller.cs" t="Include" />
+        </e>
+        <e p="Lab.csproj" t="IncludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="Expressions" t="Include">
+            <e p="ArithmeticExpression.cs" t="Include" />
+            <e p="ConstantExpression.cs" t="Include" />
+            <e p="Expression.cs" t="Include" />
+            <e p="VariableExpression.cs" t="Include" />
+          </e>
+          <e p="ProgramState" t="Include">
+            <e p="PrgState.cs" t="Include" />
+          </e>
+          <e p="Statements" t="Include">
+            <e p="AsignStatement.cs" t="Include" />
+            <e p="CompoundStatement.cs" t="Include" />
+            <e p="IfStatement.cs" t="Include" />
+            <e p="PrintStatement.cs" t="Include" />
+            <e p="Statement.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="ExecStack.cs" t="Include" />
+            <e p="IDictionary.cs" t="Include" />
+            <e p="IList.cs" t="Include" />
+            <e p="IStack.cs" t="Include" />
+            <e p="OutputList.cs" t="Include" />
+            <e p="SymbolTable.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Repository" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
+        </e>
+        <e p="View" t="Include" />
+      </e>
+      <e p="Lab.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

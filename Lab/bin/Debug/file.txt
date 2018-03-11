@@ -1,0 +1,20 @@
+
+Stack: 
+v = 2
+Print(v)
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+Stack: 
+v = 2
+Print(v)
+
+Dict: 
+
+Output: 
+
+FileTable: 

@@ -1,0 +1,10 @@
+C:\Users\mady\RiderProjects\Lab\Lab\bin\Debug\Lab.exe
+C:\Users\mady\RiderProjects\Lab\Lab\bin\Debug\Lab.pdb
+C:\Users\mady\RiderProjects\Lab\Lab\obj\Debug\Lab.csprojResolveAssemblyReference.cache
+C:\Users\mady\RiderProjects\Lab\Lab\obj\Debug\Lab.exe
+C:\Users\mady\RiderProjects\Lab\Lab\obj\Debug\Lab.pdb
+E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\obj\Debug\Lab.exe
+E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\obj\Debug\Lab.pdb
+E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\obj\Debug\Lab.csprojResolveAssemblyReference.cache
+E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\bin\Debug\Lab.exe
+E:\Mada\E\School\MAP\RiderProjects\Lab\Lab\bin\Debug\Lab.pdb
